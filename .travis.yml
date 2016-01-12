@@ -1,0 +1,7 @@
+language : java
+install:
+    ant -f continuousintegration.xml
+script:
+    ant -f continuousintegration.xml test
+after_script:
+    cat TEST-com.main.PointTest.txt
