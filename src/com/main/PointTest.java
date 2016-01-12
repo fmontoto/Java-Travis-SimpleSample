@@ -26,9 +26,4 @@ public class PointTest {
     public void testGetDistance() throws Exception {
         assertEquals(0.0, a.getDistance(new Point(1.2, 5.6)), 0.0001);
     }
-
-    @Test
-    public void testGetDistanceWrong() throws Exception {
-        assertEquals(1, 0);
-    }
 }
