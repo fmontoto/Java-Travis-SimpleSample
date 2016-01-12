@@ -5,3 +5,4 @@ script:
     ant -f continuousintegration.xml test
 after_script:
     cat TEST-com.main.PointTest.txt
+    echo OK
